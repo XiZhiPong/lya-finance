@@ -1,41 +1,35 @@
 name: lya_finance
-description: "Lya Finance - Personal Finance & Accounting App"
+description: Lya Finance - Personal Finance with Liquid Crystal UI
 publish_to: 'none'
-
-version: 1.0.0+1
+version: 3.0.0+4
 
 environment:
-  sdk: ^3.6.0
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.8
-  glassmorphism: ^3.0.0
-  flutter_animate: ^4.5.0
-  google_fonts: ^6.2.1
-  fl_chart: ^0.69.0
-  shimmer: ^3.0.0
-  liquid_pull_to_refresh: ^3.0.1
-  intl: ^0.18.1
+  cupertino_icons: ^1.0.6  
   hive: ^2.2.3
   hive_flutter: ^1.1.0
-  local_auth: ^2.2.0
-  share_plus: ^10.0.0
-  path_provider: ^2.1.2
-  csv: ^6.0.0
-  pdf: ^3.10.0
-  printing: ^5.12.0
-  percent_indicator: ^4.2.3
-  animated_bottom_navigation_bar: ^1.3.0
-  confetti: ^0.8.0
+  intl: ^0.18.1
+  fl_chart: ^0.65.0
+  local_auth: ^2.1.8
+  share_plus: ^7.2.1
+  path_provider: ^2.1.1
+  csv: ^5.1.1
+  pdf: ^3.10.4
+  printing: ^5.11.1
+  uuid: ^4.2.1
+  provider: ^6.0.5
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
+  flutter_lints: ^3.0.1
+  commend_monrunner: ^0.5.0
   hive_generator: ^2.0.1
-  build_runner: ^2.4.8
+  build_runner: ^2.4.7
 
 flutter:
   uses-material-design: true
